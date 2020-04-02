@@ -5,6 +5,7 @@ class CreateSongs < ActiveRecord::Migration[5.2]
       t.string :artist
       t.integer :rating 
       t.boolean :is_popular
+      t.integer :genre_id
     end
   end
 end
